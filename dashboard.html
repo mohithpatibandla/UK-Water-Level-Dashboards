@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ dam.name }} - Reservoir Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #d9f3ff, #f1f7ff);
+      margin: 0; padding: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #003366;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 25px;
+      color: #004c99;
+    }
+    p { font-size: 16px; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Chart cards */
+    canvas {
+      background: #fff;
+      padding: 12px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>{{ dam.name }} - Reservoir Dashboard</h1>
+
+    <p><strong>Country:</strong> {{ dam.country }} | <strong>County:</strong> {{ dam.county }}</p>
+    <p><strong>Max Volume:</strong> {{ "{:,}".format(dam.maxVolume_m3 or 0) }} m³</p>
+
+    {% if weather %}
+      <h2>🌦 Current Weather</h2>
+      <p style="background:#f9fbff;padding:10px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+        {% if weather.name %}<strong>📍 Location:</strong> {{ weather.name }}{% if weather.sys and weather.sys.country %}, {{ weather.sys.country }}{% endif %} · {% endif %}
+        🌡 <strong>Temp:</strong> {{ weather.main.temp }} °C ·
+        💧 <strong>Humidity:</strong> {{ weather.main.humidity }}% ·
+        🌬 <strong>Wind:</strong> {{ weather.wind.speed }} m/s ·
+        ☁️ <strong>Condition:</strong> {{ weather.weather[0].description }}
+      </p>
+    {% else %}
+      <p>No current weather data available (OpenWeather key not active yet).</p>
+    {% endif %}
+
+    {% if water %}
+      <p style="margin-top:12px; background:#eaf6ff;padding:10px;border-radius:8px;">
+        <strong>💧 Estimated Storage:</strong>
+        <span style="color:#0066cc;">{{ water.current_pct }}%</span> 
+        (≈ {{ "{:,}".format(water.current_m3) }} m³)
+      </p>
+    {% endif %}
+
+    {% if hist %}
+      <h2>📊 Reservoir Analytics (last {{ hist.dates|length }} days)</h2>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+        <canvas id="wlPct"></canvas>
+        <canvas id="wlVol"></canvas>
+        <canvas id="temp"></canvas>
+        <canvas id="rain"></canvas>
+      </div>
+
+      <div style="margin-top:20px;">
+        <canvas id="scatterTP"></canvas>
+      </div>
+    {% else %}
+      <p>No historical weather found for this location.</p>
+    {% endif %}
+
+    <p style="margin-top:20px;text-align:center;">
+      <a href="/">⬅ Back to Main Dashboard</a>
+    </p>
+  </div>
+
+  <script>
+    // Data from Flask
+    const hist   = {{ hist   | tojson }};
+    const water  = {{ water  | tojson }};
+
+    if (hist) {
+      const labels = hist.dates || [];
+
+      // Color palette
+      const colors = {
+        blue: 'rgba(54, 162, 235, 0.7)',
+        green: 'rgba(75, 192, 192, 0.7)',
+        orange: 'rgba(255, 159, 64, 0.7)',
+        red: 'rgba(255, 99, 132, 0.7)',
+        purple: 'rgba(153, 102, 255, 0.7)'
+      };
+
+      // 1) Water level %
+      if (water) {
+        new Chart(document.getElementById('wlPct').getContext('2d'), {
+          type: 'line',
+          data: {
+            labels,
+            datasets: [{ label: 'Water Level (%)', data: water.level_pct, borderColor: colors.blue, backgroundColor: colors.blue, fill: false, tension: 0.3 }]
+          },
+          options: { responsive: true, plugins:{legend:{labels:{color:'#003366'}}}, scales:{ y:{min:30,max:100} } }
+        });
+
+        // 2) Water level volume
+        new Chart(document.getElementById('wlVol').getContext('2d'), {
+          type: 'line',
+          data: {
+            labels,
+            datasets: [{ label: 'Water Level (m³)', data: water.level_m3, borderColor: colors.green, backgroundColor: colors.green, fill: true, tension: 0.3 }]
+          },
+          options: { responsive: true, plugins:{legend:{labels:{color:'#003366'}}}, scales:{ y:{beginAtZero:true} } }
+        });
+      }
+
+      // 3) Temperatures
+      new Chart(document.getElementById('temp').getContext('2d'), {
+        type: 'line',
+        data: {
+          labels,
+          datasets: [
+            { label: 'Tmax (°C)', data: hist.tmax, borderColor: colors.red, backgroundColor: colors.red, fill: false, tension: 0.25 },
+            { label: 'Tmin (°C)', data: hist.tmin, borderColor: colors.purple, backgroundColor: colors.purple, fill: false, tension: 0.25 }
+          ]
+        },
+        options: { responsive: true, plugins:{legend:{labels:{color:'#003366'}}} }
+      });
+
+      // 4) Precipitation
+      new Chart(document.getElementById('rain').getContext('2d'), {
+        type: 'bar',
+        data: { labels, datasets: [{ label: 'Precipitation (mm)', data: hist.precip, backgroundColor: colors.orange }] },
+        options: { responsive: true, plugins:{legend:{labels:{color:'#003366'}}}, scales:{ y:{beginAtZero:true} } }
+      });
+
+      // 5) Scatter: Tmax vs Precip
+      const pts = (hist.tmax || []).map((t, i) => ({ x: t, y: (hist.precip || [])[i] }));
+      new Chart(document.getElementById('scatterTP').getContext('2d'), {
+        type: 'scatter',
+        data: { datasets: [{ label: 'Tmax vs Precip', data: pts, backgroundColor: colors.blue }] },
+        options: {
+          responsive: true,
+          plugins:{legend:{labels:{color:'#003366'}}},
+          scales:{
+            x:{title:{display:true,text:'Tmax (°C)'}},
+            y:{title:{display:true,text:'Precipitation (mm)'},beginAtZero:true}
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>

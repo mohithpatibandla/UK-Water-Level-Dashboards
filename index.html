@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>UK Reservoirs Water Level Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    /* Light styling for the research block */
+    .research {
+      max-width: 1100px;
+      margin: 12px auto 18px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      padding: 16px 18px;
+    }
+    .research h2 {
+      margin: 4px 0 8px;
+      font-size: 1.2rem;
+      color: #004c99;
+    }
+    .research p {
+      margin: 6px 0 10px; 
+      color: #333;
+      line-height: 1.45;
+    }
+    .research .chips {
+      display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 6px;
+    }
+    .research .chip {
+      background: #eaf6ff; color: #04539c; border: 1px solid #cfe9ff;
+      padding: 6px 10px; border-radius: 999px; font-size: 0.85rem;
+    }
+    .research details {
+      background: #f9fbff;
+      border: 1px solid #e3eefc;
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-top: 10px;
+    }
+    .research summary {
+      cursor: pointer; font-weight: 600; color: #003b7a;
+    }
+    .research ul { margin: 8px 0 0 16px; }
+    .research li { margin: 6px 0; }
+    .research .meta {
+      font-size: 0.85rem; color: #555; margin-top: 10px;
+    }
+
+    /* 🔎 Search box */
+    .search-box {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .search-box input {
+      width: 60%;
+      max-width: 400px;
+      padding: 10px 14px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: 1px solid #bbb;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .search-box input:focus {
+      border-color: #0077cc;
+      box-shadow: 0 3px 8px rgba(0,119,204,0.25);
+    }
+
+    /* 🔻 Footer */
+    .site-footer{
+      margin-top: 28px;
+      padding: 16px 12px;
+      text-align: center;
+      color:#225;
+      background: #f3f7ff;
+      border-top: 1px solid #e4ecfb;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05) inset;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title" data-aos="fade-down">UK Reservoirs Water Level Dashboard</h1>
+
+    <!-- 🔹 Research Justification & Objectives block -->
+    <section class="research" data-aos="fade-up">
+      <h2>Why this research matters (Dissertation Justification)</h2>
+      <p>
+        Reservoirs underpin the UK’s <strong>water security, flood risk management, energy storage,</strong> and 
+        <strong>ecosystem health</strong>. With climate variability, rapid urban growth, and aging infrastructure, 
+        decision-makers need <em>timely, geospatial, and explainable</em> insights into storage trends and weather impacts. 
+        This dashboard demonstrates a practical, reproducible workflow to monitor reservoirs, fuse weather history, and 
+        communicate risk clearly for <strong>policy, operations, and the public</strong>.
+      </p>
+
+      <div class="chips">
+        <span class="chip">Climate variability & extremes</span>
+        <span class="chip">Drought & flood preparedness</span>
+        <span class="chip">Operational decision support</span>
+        <span class="chip">Open data & transparency</span>
+        <span class="chip">Public engagement</span>
+        <span class="chip">Reproducible analytics</span>
+      </div>
+
+      <details open>
+        <summary>Key Research Questions</summary>
+        <ul>
+          <li>How can open data (reservoir metadata + historical weather) be fused to <strong>estimate storage trends</strong> when direct sensor feeds are limited?</li>
+          <li>Which <strong>weather drivers</strong> (rainfall, temperature) are most associated with short-term storage changes?</li>
+          <li>What is an effective <strong>visual narrative</strong> (maps + time series + relationships) to aid rapid situational awareness?</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Objectives</summary>
+        <ul>
+          <li>Build an <strong>interactive geospatial interface</strong> of UK reservoirs with drill-down dashboards.</li>
+          <li>Integrate <strong>historical weather</strong> and compute an interpretable <strong>storage proxy</strong> (level% & m³) over time.</li>
+          <li>Deliver <strong>actionable visual analytics</strong>: level%, level m³, temperature trends, precipitation, and temp–rain relationship.</li>
+          <li>Ensure <strong>reproducibility</strong> via open sources and a transparent modelling approach.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Contributions</summary>
+        <ul>
+          <li>A <strong>working pipeline</strong> from web-scraped reservoir data to historical weather fusion and visual analytics.</li>
+          <li>A <strong>lightweight mass-balance proxy</strong> for storage that stakeholders can understand and tune.</li>
+          <li>A <strong>design pattern</strong> for future upgrades (IoT sensors, official level APIs, alerts, and forecasts).</li>
+        </ul>
+      </details>
+
+      <p class="meta">Scope: demonstration with open sources; can be extended with Environment Agency feeds for live levels and alerts.</p>
+    </section>
+    <!-- 🔹 End research block -->
+
+    <p class="updated" data-aos="fade-up">
+      Last updated: {{ data.lastUpdate }}
+    </p>
+    <p class="downloads" data-aos="fade-up">
+      <a href="/download/csv">Download CSV</a> ·
+      <a href="/download/json">Download JSON</a>
+    </p>
+
+    <!-- 🔎 Search box -->
+    <div class="search-box" data-aos="fade-up">
+      <input type="text" id="searchInput" placeholder="🔍 Search for a reservoir by name...">
+    </div>
+
+    <div class="dashboard">
+      <div id="map" data-aos="zoom-in"></div>
+
+      <div class="kpi-container" id="damCards" data-aos="fade-left">
+        {% if data.dams and data.dams|length > 0 %}
+          {% for dam in data.dams %}
+          <!--  Card is now clickable -->
+          <a href="/dam/{{ dam.name }}" class="kpi-card dam-card" style="background-color: var(--color-{{ loop.index0 % 15 }}); text-decoration:none; color:inherit;">
+            <h3>{{ dam.name }}</h3>
+            <p><strong>Country:</strong> {{ dam.country or '—' }}</p>
+            <p><strong>County:</strong> {{ dam.county or '—' }}</p>
+            <p><strong>Max Volume (m³):</strong> {{ dam.maxVolume_m3 or '—' }}</p>
+            <p><strong>Planning:</strong> {{ dam.planningDate or '—' }}</p>
+            <p><strong>Completion:</strong> {{ dam.completionDate or '—' }}</p>
+          </a>
+          {% endfor %}
+        {% else %}
+          <div class="kpi-card">
+            <h3>No data</h3>
+            <p>uk_dam_data/live.json not found or empty.</p>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="chart-container" data-aos="fade-up">
+      <h2>Top 20 Reservoirs by Maximum Volume (m³)</h2>
+      <canvas id="storageChart"></canvas>
+    </div>
+
+    <!-- 🔻 Footer -->
+    <footer class="site-footer">
+      © <span id="year"></span> All Rights Reserved • <strong>Mohith</strong>
+    </footer>
+  </div>
+
+  <div id="hover-info" class="hover-info hidden"></div>
+
+  <script>
+    // Jinja -> JS data
+    const damData = {{ (data.dams or []) | tojson }};
+    const damColors = [
+      "#a8dadc", "#f4a261", "#e5989b", "#b5ead7", "#f6bd60",
+      "#bde0fe", "#caffbf", "#ffadad", "#ffd6a5", "#9bf6ff",
+      "#e0aaff", "#d0f4de", "#ffc6ff", "#fdffb6", "#a0c4ff"
+    ];
+
+    //  Search filter logic
+    document.getElementById("searchInput").addEventListener("keyup", function() {
+      const query = this.value.toLowerCase();
+      document.querySelectorAll(".dam-card").forEach(card => {
+        const name = card.querySelector("h3").innerText.toLowerCase();
+        card.style.display = name.includes(query) ? "block" : "none";
+      });
+    });
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <script>
+    //  Map setup
+    const map = L.map('map').setView([54.5, -3], 6);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18 }).addTo(map);
+
+    const hoverInfo = document.getElementById('hover-info');
+    function moveHoverBox(e) {
+      hoverInfo.style.top = (e.clientY + 10) + 'px';
+      hoverInfo.style.left = (e.clientX + 10) + 'px';
+    }
+
+    (damData || []).forEach((dam, i) => {
+      if (dam.latitude != null && dam.longitude != null) {
+        const color = damColors[i % damColors.length];
+        const icon = L.divIcon({
+          className: 'custom-icon',
+          html: `<div style="background-color:${color};width:15px;height:15px;border-radius:50%;border:2px solid #333;"></div>`,
+          iconSize: [20, 20],
+          iconAnchor: [10, 10],
+        });
+
+        //  Popup with link to dam dashboard
+        const popupHTML = `
+          <b>${dam.name ?? 'Reservoir'}</b><br>
+          Country: ${dam.country ?? '—'}<br>
+          County: ${dam.county ?? '—'}<br>
+          Max Volume (m³): ${dam.maxVolume_m3 ?? '—'}<br>
+          <a href="/dam/${dam.name}">View Dashboard ➜</a>
+        `;
+
+        const marker = L.marker([dam.latitude, dam.longitude], { icon })
+          .addTo(map)
+          .bindPopup(popupHTML);
+
+        marker.on('mouseover', () => {
+          hoverInfo.classList.remove('hidden');
+          hoverInfo.innerHTML = popupHTML;
+          map.getContainer().addEventListener('mousemove', moveHoverBox);
+        });
+        marker.on('mouseout', () => {
+          hoverInfo.classList.add('hidden');
+          map.getContainer().removeEventListener('mousemove', moveHoverBox);
+        });
+      }
+    });
+
+    //  Chart: Top 20 by Max Volume
+    const canvasEl = document.getElementById('storageChart');
+    if (canvasEl) {
+      const byVol = (damData || [])
+        .filter(d => typeof d.maxVolume_m3 === 'number' && !Number.isNaN(d.maxVolume_m3))
+        .sort((a, b) => b.maxVolume_m3 - a.maxVolume_m3)
+        .slice(0, 20);
+
+      const labels = byVol.map(d => d.name || 'Reservoir');
+      const values = byVol.map(d => d.maxVolume_m3);
+
+      new Chart(canvasEl.getContext('2d'), {
+        type: 'bar',
+        data: { labels, datasets: [{ label: 'Max Volume (m³)', data: values }] },
+        options: { responsive: true, scales: { y: { beginAtZero: true } } }
+      });
+    }
+  </script>
+</body>
+</html>
