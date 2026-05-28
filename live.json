@@ -1,0 +1,2462 @@
+{
+    "lastUpdate": "2025-07-10",
+    "dams": [
+        {
+            "name": "Abberton",
+            "latitude": 51.828181,
+            "longitude": 0.873431,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "66%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Agden",
+            "latitude": 53.42685,
+            "longitude": -1.6086803,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "94%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Allerton Newton Fairburn",
+            "latitude": 53.73925,
+            "longitude": -1.319247,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "51%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Allt na Lairige",
+            "latitude": 56.3167,
+            "longitude": -4.8262144,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "56%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Alton Water",
+            "latitude": 51.977682,
+            "longitude": 1.1465962,
+            "date": "2025-07-10",
+            "waterLevel": "60.0 m",
+            "storagePercentage": "85%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Alwen Reservoir",
+            "latitude": 53.06399,
+            "longitude": -3.5609018,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Anglezarke",
+            "latitude": 53.639105,
+            "longitude": -2.5807524,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "66%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Angram",
+            "latitude": 54.179767,
+            "longitude": -1.9402122,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "57%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Ardingly",
+            "latitude": 51.043051,
+            "longitude": -0.097062417,
+            "date": "2025-07-10",
+            "waterLevel": "128.0 m",
+            "storagePercentage": "73%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Ardleigh",
+            "latitude": 51.91517,
+            "longitude": 0.95606328,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "82%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Arlington",
+            "latitude": 50.845975,
+            "longitude": 0.17691709,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "64%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Audenshaw No.1",
+            "latitude": 53.466973,
+            "longitude": -2.126494,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "76%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Audenshaw No.2",
+            "latitude": 53.462474,
+            "longitude": -2.1309991,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "70%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Audenshaw No.3",
+            "latitude": 53.466963,
+            "longitude": -2.135532,
+            "date": "2025-07-10",
+            "waterLevel": "144.0 m",
+            "storagePercentage": "71%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Baddinsgill[v]",
+            "latitude": 55.787507,
+            "longitude": -3.3910944,
+            "date": "2025-07-10",
+            "waterLevel": "120.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Baitings",
+            "latitude": 53.66658,
+            "longitude": -1.9863413,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "78%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Bakethin",
+            "latitude": 55.214639,
+            "longitude": -2.5626151,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "51%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Balderhead",
+            "latitude": 54.560782,
+            "longitude": -2.1128527,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "66%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Banbury",
+            "latitude": 51.604974,
+            "longitude": -0.034668699,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "76%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Banbury FSA",
+            "latitude": 51.604974,
+            "longitude": -0.034668699,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "60%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Barden Lower",
+            "latitude": 54.006312,
+            "longitude": -1.9480887,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "68%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Barden Upper",
+            "latitude": 54.016208,
+            "longitude": -1.983177,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "67%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Barnacre North",
+            "latitude": 53.924153,
+            "longitude": -2.7232767,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "57%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Barnacre South",
+            "latitude": 53.922355,
+            "longitude": -2.7232456,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "75%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Barrow 1",
+            "latitude": 51.401921,
+            "longitude": -2.6684067,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Barrow 2",
+            "latitude": 51.404643,
+            "longitude": -2.6641335,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "94%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Barrow 3",
+            "latitude": 51.409171,
+            "longitude": -2.658448,
+            "date": "2025-07-10",
+            "waterLevel": "72.0 m",
+            "storagePercentage": "75%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Bartley",
+            "latitude": 52.428782,
+            "longitude": -1.9984853,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "72%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Beacons Reservoir",
+            "latitude": 51.856583,
+            "longitude": -3.4722935,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "85%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Beckingham FSA",
+            "latitude": 53.405341,
+            "longitude": -0.80563022,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "65%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Belmont",
+            "latitude": 53.643081,
+            "longitude": -2.4960998,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "94%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Belvide",
+            "latitude": 52.689316,
+            "longitude": -2.2011613,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "78%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Ben Crom",
+            "latitude": 54.167845,
+            "longitude": -5.9825162,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "94%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Bewl Bridge",
+            "latitude": 51.068782,
+            "longitude": 0.39313386,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "68%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Blackbrook",
+            "latitude": 52.75318,
+            "longitude": -1.3228607,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "64%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Blackmoorfoot",
+            "latitude": 53.613459,
+            "longitude": -1.8518301,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "78%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Blackton",
+            "latitude": 54.5626,
+            "longitude": -2.0881146,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "73%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Blackwater",
+            "latitude": 56.701359,
+            "longitude": -4.863974,
+            "date": "2025-07-10",
+            "waterLevel": "144.0 m",
+            "storagePercentage": "68%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Blagdon(Bristol)",
+            "latitude": 51.336967,
+            "longitude": -2.7047849,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "84%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Blithfield",
+            "latitude": 52.809016,
+            "longitude": -1.9124313,
+            "date": "2025-07-10",
+            "waterLevel": "156.0 m",
+            "storagePercentage": "58%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Bosley",
+            "latitude": 53.19013,
+            "longitude": -2.1181929,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "86%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Bottoms(Longdendale)",
+            "latitude": 53.469732,
+            "longitude": -1.9668196,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "60%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Bough Beech",
+            "latitude": 51.208972,
+            "longitude": 0.13741063,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Branston Island",
+            "latitude": 53.224667,
+            "longitude": -0.35378615,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "58%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Brent",
+            "latitude": 51.569668,
+            "longitude": -0.24686808,
+            "date": "2025-07-10",
+            "waterLevel": "60.0 m",
+            "storagePercentage": "93%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Broomhead",
+            "latitude": 53.459168,
+            "longitude": -1.5963348,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "56%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Brotherton Little Marsh to Birkin Holme Washland",
+            "latitude": 53.721515,
+            "longitude": -1.2119357,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "59%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Burnhope",
+            "latitude": 54.745724,
+            "longitude": -2.2391942,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "95%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Burrator[v]",
+            "latitude": 50.499032,
+            "longitude": -4.036177,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "82%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Butterley",
+            "latitude": 53.591059,
+            "longitude": -1.9304674,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "80%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Caban Coch",
+            "latitude": 52.256256,
+            "longitude": -3.5895197,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "95%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Caldecott Lake",
+            "latitude": 52.013356,
+            "longitude": -0.69150143,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "66%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Cantref Reservoir",
+            "latitude": 51.832079,
+            "longitude": -3.4616252,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "87%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Carsington",
+            "latitude": 53.059279,
+            "longitude": -1.6314139,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "76%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Catcleugh",
+            "latitude": 55.321313,
+            "longitude": -2.4002361,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "69%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Catterall Flood Storage",
+            "latitude": 53.865173,
+            "longitude": -2.8104563,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "84%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Cavendish Dock",
+            "latitude": 54.104527,
+            "longitude": -3.2066514,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "81%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Cawood Ings Wistow Lordship",
+            "latitude": 53.816769,
+            "longitude": -1.0825621,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "84%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Chasewater",
+            "latitude": 52.666103,
+            "longitude": -1.9482042,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "81%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Cheddar",
+            "latitude": 51.279686,
+            "longitude": -2.8028357,
+            "date": "2025-07-10",
+            "waterLevel": "128.0 m",
+            "storagePercentage": "76%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Chelker",
+            "latitude": 53.960456,
+            "longitude": -1.9155302,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "55%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Chelmarsh",
+            "latitude": 52.484765,
+            "longitude": -2.3931329,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "89%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Chew Magna",
+            "latitude": 51.366195,
+            "longitude": -2.6247933,
+            "date": "2025-07-10",
+            "waterLevel": "128.0 m",
+            "storagePercentage": "90%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Chew Valley Lake",
+            "latitude": 51.337453,
+            "longitude": -2.6186602,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "58%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Chrathaich",
+            "latitude": 57.247645,
+            "longitude": -4.7131125,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "51%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Church Wilne[v]",
+            "latitude": 52.88797,
+            "longitude": -1.3133319,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "63%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Claerwen",
+            "latitude": 52.272093,
+            "longitude": -3.6794917,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "97%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Clatworthy",
+            "latitude": 51.07392,
+            "longitude": -3.3673742,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "69%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Clifton Ings Washlands",
+            "latitude": 53.970648,
+            "longitude": -1.1066274,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "69%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Colliford Lake",
+            "latitude": 50.510401,
+            "longitude": -4.5696538,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "79%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Colt Crag",
+            "latitude": 55.097285,
+            "longitude": -2.0955583,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "56%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Covenham",
+            "latitude": 53.443731,
+            "longitude": 0.025611218,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "80%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Cow Green",
+            "latitude": 54.654841,
+            "longitude": -2.2929079,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "76%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Craig Goch",
+            "latitude": 52.315169,
+            "longitude": -3.6209719,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "88%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Cray",
+            "latitude": 51.885373,
+            "longitude": -3.6214431,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "68%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Cropston",
+            "latitude": 52.693928,
+            "longitude": -1.1920904,
+            "date": "2025-07-10",
+            "waterLevel": "80.0 m",
+            "storagePercentage": "53%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Crowlands Cowbit Washes",
+            "latitude": 52.731468,
+            "longitude": -0.13545822,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "93%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Crummock Water",
+            "latitude": 54.575257,
+            "longitude": -3.3148907,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "99%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Curry Moor Flood Storage Area",
+            "latitude": 51.038387,
+            "longitude": -2.9626802,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "97%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Daer",
+            "latitude": 55.353611,
+            "longitude": -3.6169925,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "86%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Dale Dyke",
+            "latitude": 53.421543,
+            "longitude": -1.6358144,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "76%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Damflask",
+            "latitude": 53.412351,
+            "longitude": -1.5742116,
+            "date": "2025-07-10",
+            "waterLevel": "72.0 m",
+            "storagePercentage": "92%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Darwell[v]",
+            "latitude": 50.964696,
+            "longitude": 0.44093306,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "63%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Delph",
+            "latitude": 53.634273,
+            "longitude": -2.4506272,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "78%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Derwent",
+            "latitude": 53.40474,
+            "longitude": -1.7412482,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "83%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Derwent Reservoir",
+            "latitude": 54.857386,
+            "longitude": -1.962584,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "63%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Digley",
+            "latitude": 53.559507,
+            "longitude": -1.8354124,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Doe Park",
+            "latitude": 53.804041,
+            "longitude": -1.8830465,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Donolly Reservoir",
+            "latitude": 55.909541,
+            "longitude": -2.6766156,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "87%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Dovestone",
+            "latitude": 53.529058,
+            "longitude": -1.9773335,
+            "date": "2025-07-10",
+            "waterLevel": "80.0 m",
+            "storagePercentage": "68%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Draycote Water",
+            "latitude": 52.326175,
+            "longitude": -1.3264618,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "84%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "East Ings and Wood Holmes Washland Reservoir",
+            "latitude": 53.712507,
+            "longitude": -1.2090737,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "70%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "East Warwick",
+            "latitude": 51.57925,
+            "longitude": -0.055985047,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "91%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Eccup",
+            "latitude": 53.871498,
+            "longitude": -1.5330645,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "89%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Eglwys Nunydd",
+            "latitude": 51.555411,
+            "longitude": -3.7438321,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "59%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Ennerdale Water",
+            "latitude": 54.524765,
+            "longitude": -3.4090669,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Entwistle",
+            "latitude": 53.653241,
+            "longitude": -2.4251088,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Errwood",
+            "latitude": 53.273783,
+            "longitude": -1.9804662,
+            "date": "2025-07-10",
+            "waterLevel": "144.0 m",
+            "storagePercentage": "73%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Eyebrook",
+            "latitude": 52.54356,
+            "longitude": -0.75099918,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "74%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Farmoor No. 1",
+            "latitude": 51.758126,
+            "longitude": -1.3566759,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "52%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Farmoor No. 2",
+            "latitude": 51.750934,
+            "longitude": -1.356778,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Fernilee",
+            "latitude": 53.296255,
+            "longitude": -1.9819564,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "54%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Fernworthy",
+            "latitude": 50.64319,
+            "longitude": -3.8809759,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "92%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Fewston",
+            "latitude": 53.982621,
+            "longitude": -1.7163354,
+            "date": "2025-07-10",
+            "waterLevel": "60.0 m",
+            "storagePercentage": "81%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Ffynnon Llugwy",
+            "latitude": 53.142643,
+            "longitude": -3.9569822,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "74%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Fiddler's Ferry P.S. Ash Lagoon D",
+            "latitude": 53.36446,
+            "longitude": -2.674688,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Fontburn",
+            "latitude": 55.235687,
+            "longitude": -1.9307831,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "88%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Foremark",
+            "latitude": 52.816142,
+            "longitude": -1.5132885,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Fruid",
+            "latitude": 55.458437,
+            "longitude": -3.4296968,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Garreg Ddu",
+            "latitude": 52.262447,
+            "longitude": -3.5970679,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Gladhouse",
+            "latitude": 55.770608,
+            "longitude": -3.1208736,
+            "date": "2025-07-10",
+            "waterLevel": "132.0 m",
+            "storagePercentage": "63%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Glen Finglas",
+            "latitude": 56.252852,
+            "longitude": -4.3838037,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "81%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Glencorse",
+            "latitude": 55.861862,
+            "longitude": -3.2534157,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "80%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Gorple Upper",
+            "latitude": 53.778874,
+            "longitude": -2.1168095,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "61%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Gouthwaite",
+            "latitude": 54.116708,
+            "longitude": -1.8026204,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "75%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Grafham Water[v]",
+            "latitude": 52.288689,
+            "longitude": -0.28606805,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "86%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Grassholme",
+            "latitude": 54.596742,
+            "longitude": -2.097475,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Greenbooth",
+            "latitude": 53.633114,
+            "longitude": -2.2237757,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "72%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Grimwith",
+            "latitude": 54.073696,
+            "longitude": -1.9097996,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "51%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Hallington East",
+            "latitude": 55.08114,
+            "longitude": -2.043829,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "71%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Hallington West",
+            "latitude": 55.078439,
+            "longitude": -2.0563562,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Hampton - Sunnyside",
+            "latitude": 51.408835,
+            "longitude": -0.38099829,
+            "date": "2025-07-10",
+            "waterLevel": "128.0 m",
+            "storagePercentage": "92%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Hanningfield",
+            "latitude": 51.657668,
+            "longitude": 0.50402549,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Haweswater",
+            "latitude": 54.532294,
+            "longitude": -2.7741697,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "82%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Heaton Park",
+            "latitude": 53.538652,
+            "longitude": -2.2655256,
+            "date": "2025-07-10",
+            "waterLevel": "128.0 m",
+            "storagePercentage": "68%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Hewenden",
+            "latitude": 53.81663,
+            "longitude": -1.889087,
+            "date": "2025-07-10",
+            "waterLevel": "156.0 m",
+            "storagePercentage": "87%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "High Maynard",
+            "latitude": 51.588967,
+            "longitude": -0.045464928,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "56%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Hilfield Park[v]",
+            "latitude": 51.650897,
+            "longitude": -0.32902291,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "53%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Hollingworth Lake",
+            "latitude": 53.634181,
+            "longitude": -2.0997734,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "68%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Hollowell",
+            "latitude": 52.345343,
+            "longitude": -0.98853688,
+            "date": "2025-07-10",
+            "waterLevel": "72.0 m",
+            "storagePercentage": "52%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Hopes",
+            "latitude": 55.849963,
+            "longitude": -2.7250932,
+            "date": "2025-07-10",
+            "waterLevel": "132.0 m",
+            "storagePercentage": "94%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Howden",
+            "latitude": 53.429018,
+            "longitude": -1.745616,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "78%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Hury",
+            "latitude": 54.571606,
+            "longitude": -2.0556516,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "66%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Island Barn",
+            "latitude": 51.390619,
+            "longitude": -0.36439363,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "58%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Jumbles",
+            "latitude": 53.620963,
+            "longitude": -2.4021067,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "59%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Kellington Ings Reservoir",
+            "latitude": 53.713581,
+            "longitude": -1.106021,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "80%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Kielder",
+            "latitude": 55.180922,
+            "longitude": -2.4600692,
+            "date": "2025-07-10",
+            "waterLevel": "72.0 m",
+            "storagePercentage": "68%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Killington",
+            "latitude": 54.312936,
+            "longitude": -2.6317055,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "79%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Kinder",
+            "latitude": 53.390517,
+            "longitude": -1.9135015,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "95%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "King George V",
+            "latitude": 51.65051,
+            "longitude": -0.015352701,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "65%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "King George VI",
+            "latitude": 51.448229,
+            "longitude": -0.50336831,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "68%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Ladybower",
+            "latitude": 53.365994,
+            "longitude": -1.7009077,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "53%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Lamaload",
+            "latitude": 53.274675,
+            "longitude": -2.0449474,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "84%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Langsett",
+            "latitude": 53.498069,
+            "longitude": -1.6788755,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "67%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Leeming",
+            "latitude": 53.805882,
+            "longitude": -1.94378,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "56%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Leigh Barrier (Medway) FSR",
+            "latitude": 51.194493,
+            "longitude": 0.23836213,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "61%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Leighton",
+            "latitude": 54.204694,
+            "longitude": -1.7531441,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "75%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Lindley Wood",
+            "latitude": 53.939372,
+            "longitude": -1.6739758,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "52%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Linton Ings",
+            "latitude": 54.037317,
+            "longitude": -1.2624729,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "89%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Little Swinburne",
+            "latitude": 55.089204,
+            "longitude": -2.0877054,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Llandegfedd",
+            "latitude": 51.6812,
+            "longitude": -2.976255,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "92%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Llwyn-On",
+            "latitude": 51.792479,
+            "longitude": -3.4354039,
+            "date": "2025-07-10",
+            "waterLevel": "120.0 m",
+            "storagePercentage": "92%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Llyn Alaw",
+            "latitude": 53.34044,
+            "longitude": -4.4437297,
+            "date": "2025-07-10",
+            "waterLevel": "132.0 m",
+            "storagePercentage": "77%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Llyn Aled[v]",
+            "latitude": 53.107241,
+            "longitude": -3.6207301,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "63%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Llyn Arenig Fawr",
+            "latitude": 52.926156,
+            "longitude": -3.7121426,
+            "date": "2025-07-10",
+            "waterLevel": "156.0 m",
+            "storagePercentage": "81%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Llyn Brenig",
+            "latitude": 53.076098,
+            "longitude": -3.5284979,
+            "date": "2025-07-10",
+            "waterLevel": "132.0 m",
+            "storagePercentage": "77%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Llyn Brianne",
+            "latitude": 52.121552,
+            "longitude": -3.7673117,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "60%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Llyn Celyn",
+            "latitude": 52.949031,
+            "longitude": -3.6993374,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "75%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Clywedog Reservoir(Llyn Clywedog)",
+            "latitude": 52.483257,
+            "longitude": -3.6242003,
+            "date": "2025-07-10",
+            "waterLevel": "156.0 m",
+            "storagePercentage": "80%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Llyn Cowlyd",
+            "latitude": 53.152737,
+            "longitude": -3.8886457,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "52%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Llyn Cwellyn[v]",
+            "latitude": 53.077993,
+            "longitude": -4.1600815,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "98%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Llyn Cwmystradllyn[v]",
+            "latitude": 52.976703,
+            "longitude": -4.143108,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "99%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Llyn Peris",
+            "latitude": 53.117503,
+            "longitude": -4.1127477,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "82%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Llyn Stwlan",
+            "latitude": 52.980292,
+            "longitude": -3.9883645,
+            "date": "2025-07-10",
+            "waterLevel": "156.0 m",
+            "storagePercentage": "67%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Bala Lake(Llyn Tegid)",
+            "latitude": 52.901732,
+            "longitude": -3.5937195,
+            "date": "2025-07-10",
+            "waterLevel": "144.0 m",
+            "storagePercentage": "87%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Llyn Trawsfynydd",
+            "latitude": 52.925281,
+            "longitude": -3.944186,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "85%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Loch Achonachie",
+            "latitude": 57.554706,
+            "longitude": -4.5988314,
+            "date": "2025-07-10",
+            "waterLevel": "68.0 m",
+            "storagePercentage": "76%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Loch an Diamh",
+            "latitude": 56.585328,
+            "longitude": -4.4298309,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "57%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Loch Arklet",
+            "latitude": 56.246825,
+            "longitude": -4.6195911,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "82%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Loch Bradan",
+            "latitude": 55.2445,
+            "longitude": -4.4860239,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "83%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Loch Drunkie",
+            "latitude": 56.209704,
+            "longitude": -4.3514522,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "93%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Loch Earn",
+            "latitude": 56.392099,
+            "longitude": -4.1091174,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "58%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Loch Eigheach Gaur",
+            "latitude": 56.67844,
+            "longitude": -4.5136547,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "74%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Loch Ericht",
+            "latitude": 56.732022,
+            "longitude": -4.440388,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "69%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Loch Garry",
+            "latitude": 57.077537,
+            "longitude": -4.8459025,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "74%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Loch Gleann A'Bhearraidh",
+            "latitude": 56.385184,
+            "longitude": -5.4930136,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "80%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Loch Katrine",
+            "latitude": 56.252698,
+            "longitude": -4.5141613,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "74%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Loch Loyne",
+            "latitude": 57.1267,
+            "longitude": -4.9736204,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "85%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Loch Luichart",
+            "latitude": 57.613757,
+            "longitude": -4.7386845,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "65%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Loch Lyon",
+            "latitude": 56.541721,
+            "longitude": -4.5192239,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "72%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Loch Nant",
+            "latitude": 56.374101,
+            "longitude": -5.2354396,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "57%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Loch Quoich",
+            "latitude": 57.071201,
+            "longitude": -5.1837051,
+            "date": "2025-07-10",
+            "waterLevel": "132.0 m",
+            "storagePercentage": "92%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Loch Spey",
+            "latitude": 57.012555,
+            "longitude": -4.3384944,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "70%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Loch Thom",
+            "latitude": 55.911261,
+            "longitude": -4.7862577,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Loch Vaich",
+            "latitude": 57.733285,
+            "longitude": -4.7796402,
+            "date": "2025-07-10",
+            "waterLevel": "80.0 m",
+            "storagePercentage": "97%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Loch Venachar",
+            "latitude": 56.221084,
+            "longitude": -4.3007086,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "80%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Lockwood",
+            "latitude": 51.594407,
+            "longitude": -0.048118991,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Loganlea",
+            "latitude": 55.848025,
+            "longitude": -3.2881891,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "74%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Low Maynard",
+            "latitude": 51.588967,
+            "longitude": -0.045464928,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "99%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Marchlyn Mawr",
+            "latitude": 53.138951,
+            "longitude": -4.0689468,
+            "date": "2025-07-10",
+            "waterLevel": "60.0 m",
+            "storagePercentage": "72%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Megget",
+            "latitude": 55.48689,
+            "longitude": -3.2792883,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "60%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Meldon",
+            "latitude": 50.70623,
+            "longitude": -4.0364604,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "79%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Mickletown Washland",
+            "latitude": 53.73864,
+            "longitude": -1.3723192,
+            "date": "2025-07-10",
+            "waterLevel": "120.0 m",
+            "storagePercentage": "54%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Midhope",
+            "latitude": 53.490841,
+            "longitude": -1.6653653,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "78%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Misson East FSA",
+            "latitude": 53.446107,
+            "longitude": -0.93397635,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "94%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Misson West FSA",
+            "latitude": 53.438336,
+            "longitude": -0.97030047,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "76%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "More Hall",
+            "latitude": 53.458175,
+            "longitude": -1.5692355,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Loch Mullardoch",
+            "latitude": 57.337439,
+            "longitude": -4.9557405,
+            "date": "2025-07-10",
+            "waterLevel": "72.0 m",
+            "storagePercentage": "75%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Nant-y-Moch",
+            "latitude": 52.45949,
+            "longitude": -3.8352785,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "84%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Northampton Washlands",
+            "latitude": 52.234265,
+            "longitude": -0.83730834,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "76%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Ogston",
+            "latitude": 53.134923,
+            "longitude": -1.4364542,
+            "date": "2025-07-10",
+            "waterLevel": "120.0 m",
+            "storagePercentage": "85%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Oldbury Power Station",
+            "latitude": 51.652358,
+            "longitude": -2.5795759,
+            "date": "2025-07-10",
+            "waterLevel": "120.0 m",
+            "storagePercentage": "73%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Ouse Washes",
+            "latitude": 52.478317,
+            "longitude": 0.20724239,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "74%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Penygarreg",
+            "latitude": 52.293742,
+            "longitude": -3.6099246,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "91%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Pitsford",
+            "latitude": 52.313028,
+            "longitude": -0.89392331,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "92%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Pontsticill(Taf Fechan)",
+            "latitude": 51.796937,
+            "longitude": -3.3630375,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Queen Elizabeth II",
+            "latitude": 51.391935,
+            "longitude": -0.39453096,
+            "date": "2025-07-10",
+            "waterLevel": "132.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Queen Mary",
+            "latitude": 51.416173,
+            "longitude": -0.45839646,
+            "date": "2025-07-10",
+            "waterLevel": "80.0 m",
+            "storagePercentage": "79%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Queen Mother",
+            "latitude": 51.481166,
+            "longitude": -0.54837454,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Ravensthorpe",
+            "latitude": 52.327477,
+            "longitude": -1.0021509,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "77%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Rhodeswood",
+            "latitude": 53.480505,
+            "longitude": -1.9351681,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "69%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "River Shin",
+            "latitude": 58.012378,
+            "longitude": -4.4016958,
+            "date": "2025-07-10",
+            "waterLevel": "128.0 m",
+            "storagePercentage": "79%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "River Till Controlled Washland",
+            "latitude": 53.289812,
+            "longitude": -0.9468714,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "River WithamFlood Washlands",
+            "latitude": 53.162822,
+            "longitude": -0.57753531,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "51%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Rivington Lower",
+            "latitude": 53.606843,
+            "longitude": -2.5606621,
+            "date": "2025-07-10",
+            "waterLevel": "132.0 m",
+            "storagePercentage": "82%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Roadford",
+            "latitude": 50.68814,
+            "longitude": -4.2381365,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "90%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Roundhill",
+            "latitude": 54.190351,
+            "longitude": -1.7716197,
+            "date": "2025-07-10",
+            "waterLevel": "148.0 m",
+            "storagePercentage": "94%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Rudyard",
+            "latitude": 53.133529,
+            "longitude": -2.0836602,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "91%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Rutland Water",
+            "latitude": 52.661511,
+            "longitude": -0.6056937,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "77%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Scaling",
+            "latitude": 54.504993,
+            "longitude": -0.84482832,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "88%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Scammonden",
+            "latitude": 53.646781,
+            "longitude": -1.9212997,
+            "date": "2025-07-10",
+            "waterLevel": "80.0 m",
+            "storagePercentage": "99%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Scar House",
+            "latitude": 54.187839,
+            "longitude": -1.9126169,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "88%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Seathwaite Tarn",
+            "latitude": 54.377355,
+            "longitude": -3.156137,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Selset",
+            "latitude": 54.585031,
+            "longitude": -2.1283928,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "83%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Shustoke Lower",
+            "latitude": 52.51821,
+            "longitude": -1.665429,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "93%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Siblyback",
+            "latitude": 50.505737,
+            "longitude": -4.4946487,
+            "date": "2025-07-10",
+            "waterLevel": "132.0 m",
+            "storagePercentage": "51%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Silent Valley",
+            "latitude": 54.139876,
+            "longitude": -6.0027439,
+            "date": "2025-07-10",
+            "waterLevel": "140.0 m",
+            "storagePercentage": "59%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Staines North",
+            "latitude": 51.451658,
+            "longitude": -0.49030334,
+            "date": "2025-07-10",
+            "waterLevel": "144.0 m",
+            "storagePercentage": "98%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Staines South",
+            "latitude": 51.441771,
+            "longitude": -0.49062937,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "64%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Staunton Harold",
+            "latitude": 52.807498,
+            "longitude": -1.4424902,
+            "date": "2025-07-10",
+            "waterLevel": "136.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Stithians",
+            "latitude": 50.183607,
+            "longitude": -5.1965073,
+            "date": "2025-07-10",
+            "waterLevel": "156.0 m",
+            "storagePercentage": "75%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Stocks",
+            "latitude": 53.986684,
+            "longitude": -2.4284992,
+            "date": "2025-07-10",
+            "waterLevel": "128.0 m",
+            "storagePercentage": "88%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Strines",
+            "latitude": 53.410806,
+            "longitude": -1.6524541,
+            "date": "2025-07-10",
+            "waterLevel": "100.0 m",
+            "storagePercentage": "55%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Sutton Bingham",
+            "latitude": 50.900343,
+            "longitude": -2.6356,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "62%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Swinsty",
+            "latitude": 53.976296,
+            "longitude": -1.7026564,
+            "date": "2025-07-10",
+            "waterLevel": "144.0 m",
+            "storagePercentage": "65%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Swithland",
+            "latitude": 52.727983,
+            "longitude": -1.1766534,
+            "date": "2025-07-10",
+            "waterLevel": "80.0 m",
+            "storagePercentage": "58%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "\"Tadcaster, Hackenby, North Ings and Cock Beck\"",
+            "latitude": 53.871853,
+            "longitude": -1.2486563,
+            "date": "2025-07-10",
+            "waterLevel": "84.0 m",
+            "storagePercentage": "72%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Talla",
+            "latitude": 55.479603,
+            "longitude": -3.3983738,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "93%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Talybont",
+            "latitude": 51.875877,
+            "longitude": -3.3000529,
+            "date": "2025-07-10",
+            "waterLevel": "128.0 m",
+            "storagePercentage": "93%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Tanygrisiau",
+            "latitude": 52.983408,
+            "longitude": -3.9631826,
+            "date": "2025-07-10",
+            "waterLevel": "120.0 m",
+            "storagePercentage": "97%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Thirlmere",
+            "latitude": 54.561506,
+            "longitude": -3.0685524,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "54%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Thruscross",
+            "latitude": 54.015989,
+            "longitude": -1.7695224,
+            "date": "2025-07-10",
+            "waterLevel": "80.0 m",
+            "storagePercentage": "55%",
+            "rainfall": "5 mm"
+        },
+        {
+            "name": "Tittesworth",
+            "latitude": 53.125468,
+            "longitude": -2.0119145,
+            "date": "2025-07-10",
+            "waterLevel": "156.0 m",
+            "storagePercentage": "92%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Torside",
+            "latitude": 53.481393,
+            "longitude": -1.9170845,
+            "date": "2025-07-10",
+            "waterLevel": "120.0 m",
+            "storagePercentage": "77%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Tunstall",
+            "latitude": 54.762095,
+            "longitude": -1.9005097,
+            "date": "2025-07-10",
+            "waterLevel": "132.0 m",
+            "storagePercentage": "78%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Underbank",
+            "latitude": 53.488908,
+            "longitude": -1.6201667,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "74%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Usk",
+            "latitude": 51.942925,
+            "longitude": -3.7155557,
+            "date": "2025-07-10",
+            "waterLevel": "60.0 m",
+            "storagePercentage": "69%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Vale House",
+            "latitude": 53.473502,
+            "longitude": -1.9523536,
+            "date": "2025-07-10",
+            "waterLevel": "96.0 m",
+            "storagePercentage": "50%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Vyrnwy",
+            "latitude": 52.762346,
+            "longitude": -3.4567214,
+            "date": "2025-07-10",
+            "waterLevel": "144.0 m",
+            "storagePercentage": "61%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "Walthamstow No.4",
+            "latitude": 51.584498,
+            "longitude": -0.047100199,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "57%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Walthamstow No.5",
+            "latitude": 51.579981,
+            "longitude": -0.045850528,
+            "date": "2025-07-10",
+            "waterLevel": "60.0 m",
+            "storagePercentage": "57%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Walton - Bessborough",
+            "latitude": 51.399946,
+            "longitude": -0.38850014,
+            "date": "2025-07-10",
+            "waterLevel": "120.0 m",
+            "storagePercentage": "74%",
+            "rainfall": "4 mm"
+        },
+        {
+            "name": "Walton - Knight",
+            "latitude": 51.400044,
+            "longitude": -0.39568466,
+            "date": "2025-07-10",
+            "waterLevel": "108.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Waskerley",
+            "latitude": 54.793583,
+            "longitude": -1.9626426,
+            "date": "2025-07-10",
+            "waterLevel": "152.0 m",
+            "storagePercentage": "72%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Watergrove",
+            "latitude": 53.655715,
+            "longitude": -2.1376509,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "96%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Wayoh",
+            "latitude": 53.643443,
+            "longitude": -2.3992954,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "56%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Weirwood",
+            "latitude": 51.099772,
+            "longitude": 0.006676137,
+            "date": "2025-07-10",
+            "waterLevel": "92.0 m",
+            "storagePercentage": "63%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Wentwood",
+            "latitude": 51.632009,
+            "longitude": -2.8249355,
+            "date": "2025-07-10",
+            "waterLevel": "144.0 m",
+            "storagePercentage": "56%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "West Moor Reservoir",
+            "latitude": 51.089725,
+            "longitude": -2.8352377,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "67%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "West Warwick",
+            "latitude": 51.577501,
+            "longitude": -0.058946209,
+            "date": "2025-07-10",
+            "waterLevel": "72.0 m",
+            "storagePercentage": "73%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "West Water",
+            "latitude": 55.756672,
+            "longitude": -3.4080668,
+            "date": "2025-07-10",
+            "waterLevel": "116.0 m",
+            "storagePercentage": "63%",
+            "rainfall": "3 mm"
+        },
+        {
+            "name": "Wet Sleddale",
+            "latitude": 54.497744,
+            "longitude": -2.6916824,
+            "date": "2025-07-10",
+            "waterLevel": "88.0 m",
+            "storagePercentage": "91%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "White Holme",
+            "latitude": 53.67556,
+            "longitude": -2.0453756,
+            "date": "2025-07-10",
+            "waterLevel": "72.0 m",
+            "storagePercentage": "86%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Whiteadder",
+            "latitude": 55.86343,
+            "longitude": -2.5543847,
+            "date": "2025-07-10",
+            "waterLevel": "156.0 m",
+            "storagePercentage": "97%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Widdop",
+            "latitude": 53.793263,
+            "longitude": -2.1077415,
+            "date": "2025-07-10",
+            "waterLevel": "72.0 m",
+            "storagePercentage": "60%",
+            "rainfall": "0 mm"
+        },
+        {
+            "name": "Willen Lake",
+            "latitude": 52.059485,
+            "longitude": -0.71640948,
+            "date": "2025-07-10",
+            "waterLevel": "112.0 m",
+            "storagePercentage": "51%",
+            "rainfall": "1 mm"
+        },
+        {
+            "name": "William Girling",
+            "latitude": 51.629115,
+            "longitude": -0.02640098,
+            "date": "2025-07-10",
+            "waterLevel": "76.0 m",
+            "storagePercentage": "86%",
+            "rainfall": "6 mm"
+        },
+        {
+            "name": "Wimbleball",
+            "latitude": 51.053723,
+            "longitude": -3.4752172,
+            "date": "2025-07-10",
+            "waterLevel": "64.0 m",
+            "storagePercentage": "89%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Winscar",
+            "latitude": 53.519852,
+            "longitude": -1.7707125,
+            "date": "2025-07-10",
+            "waterLevel": "104.0 m",
+            "storagePercentage": "89%",
+            "rainfall": "9 mm"
+        },
+        {
+            "name": "Woodhead",
+            "latitude": 53.491247,
+            "longitude": -1.8778781,
+            "date": "2025-07-10",
+            "waterLevel": "120.0 m",
+            "storagePercentage": "88%",
+            "rainfall": "8 mm"
+        },
+        {
+            "name": "Wraysbury",
+            "latitude": 51.460205,
+            "longitude": -0.52600813,
+            "date": "2025-07-10",
+            "waterLevel": "80.0 m",
+            "storagePercentage": "57%",
+            "rainfall": "7 mm"
+        },
+        {
+            "name": "Yarrow[v]",
+            "latitude": 53.634662,
+            "longitude": -2.5701051,
+            "date": "2025-07-10",
+            "waterLevel": "72.0 m",
+            "storagePercentage": "52%",
+            "rainfall": "2 mm"
+        },
+        {
+            "name": "Ystradfellte",
+            "latitude": 51.846116,
+            "longitude": -3.5314738,
+            "date": "2025-07-10",
+            "waterLevel": "124.0 m",
+            "storagePercentage": "51%",
+            "rainfall": "1 mm"
+        }
+    ]
+}

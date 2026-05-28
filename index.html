@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UK Reservoirs Water Level Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title" data-aos="fade-down">UK Reservoirs Water Level Dashboard</h1>
+    <p class="updated" data-aos="fade-up">Last updated: {{ data.lastUpdate }}</p>
+
+    <div class="dashboard">
+      <div id="map" data-aos="zoom-in"></div>
+
+      <div class="kpi-container" data-aos="fade-left">
+        {% for dam in data.dams %}
+        <div class="kpi-card" style="background-color: var(--color-{{ loop.index0 % 15 }});">
+          <h3>{{ dam.name }}</h3>
+          <p><strong>Water Level:</strong> {{ dam.waterLevel }} </p>
+          <p><strong>Storage:</strong> {{ dam.storagePercentage }}</p>
+          <p><strong>Rainfall:</strong> {{ dam.rainfall }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="chart-container" data-aos="fade-up">
+      <h2>Dam Storage %</h2>
+      <canvas id="storageChart"></canvas>
+    </div>
+  </div>
+
+  <div id="hover-info" class="hover-info hidden"></div>
+
+  <script>
+    const damData = {{ data.dams|tojson }};
+    const damColors = [
+      "#a8dadc", "#f4a261", "#e5989b", "#b5ead7", "#f6bd60", 
+      "#bde0fe", "#caffbf", "#ffadad", "#ffd6a5", "#9bf6ff",
+      "#e0aaff", "#d0f4de", "#ffc6ff", "#fdffb6", "#a0c4ff"
+    ];
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
